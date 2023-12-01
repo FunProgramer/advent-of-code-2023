@@ -4,9 +4,9 @@ with open("day1_input.txt", "r") as input_file:
 input_lines = input_string.splitlines()
 
 digit_lines = []
-for line_i in range(len(input_lines)):
+for line_i, line in enumerate(input_lines):
     digit_lines.append([])
-    for char in input_lines[line_i]:
+    for char in line:
         if char.isdigit():
             digit_lines[line_i].append(char)
 
