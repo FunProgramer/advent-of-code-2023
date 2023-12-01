@@ -10,8 +10,6 @@ for line_i in range(len(input_lines)):
         if char.isdigit():
             digit_lines[line_i].append(char)
 
-print(digit_lines)
-
 calibration_values_sum = 0
 
 for line in digit_lines:
